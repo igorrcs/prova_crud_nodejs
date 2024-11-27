@@ -1,0 +1,35 @@
+{
+  "name": "api_mairink",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "sync": "ts-node src/sync.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.7.4",
+    "@types/sequelize": "^4.28.20",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "@sequelize/core": "^7.0.0-alpha.42",
+    "@sequelize/mysql": "^7.0.0-alpha.42",
+    "csv-parser": "^3.0.0",
+    "express": "^4.21.1",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.11.3",
+    "sequelize": "^6.37.3",
+    "sqlite3": "^5.1.7"
+  }
+}
